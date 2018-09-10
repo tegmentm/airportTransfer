@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="1063 514.774 66.814 17.852">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ff966e;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        stroke: #fff;
+        stroke-width: 2px;
+      }
+
+      .cls-2 {
+        fill: #f4657c;
+      }
+
+      .cls-3 {
+        fill: #540032;
+      }
+
+      .cls-4 {
+        stroke: none;
+      }
+
+      .cls-5 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <g id="Group_27" data-name="Group 27" transform="translate(-406 -1487.226)">
+    <g id="Rectangle_42" data-name="Rectangle 42" class="cls-1" transform="translate(1469 2002)">
+      <rect class="cls-4" width="17.852" height="17.852" rx="5"/>
+      <rect class="cls-5" x="1" y="1" width="15.852" height="15.852" rx="4"/>
+    </g>
+    <g id="Rectangle_43" data-name="Rectangle 43" class="cls-2" transform="translate(1493.228 2002)">
+      <rect class="cls-4" width="17.852" height="17.852" rx="5"/>
+      <rect class="cls-5" x="1" y="1" width="15.852" height="15.852" rx="4"/>
+    </g>
+    <g id="Rectangle_44" data-name="Rectangle 44" class="cls-3" transform="translate(1517.962 2002)">
+      <rect class="cls-4" width="17.852" height="17.852" rx="5"/>
+      <rect class="cls-5" x="1" y="1" width="15.852" height="15.852" rx="4"/>
+    </g>
+  </g>
+</svg>

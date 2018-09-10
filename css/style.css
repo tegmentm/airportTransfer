@@ -1,0 +1,167 @@
+:root {
+	--bordo: #8e1128;
+	--mor: #540032;
+	--lacivert: #183a78;
+	--sari:#f0c678;
+	--orange1: #ff9900;
+	--orange2: #FF966E;
+
+	--opensans: 'Open Sans', sans-serif;
+	--encode: 'Encode Sans Condensed', sans-serif;
+}
+
+body {
+	font-family: var(--opensans);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+	font-family: var(--encode);
+	text-transform: capitalize;
+	font-weight: 700;
+}
+
+h1 {
+	font-size: 218%;
+}
+
+h2 {
+	font-size: 164%;
+}
+
+h3 {
+	font-size: 145%;
+}
+
+h4 {
+	font-size: 118%;
+}
+
+a {
+	transition: all .5s;
+}
+
+
+.navbar {
+	background-color: rgba(255, 255, 255, .8);
+}
+
+.navbar-nav .nav-link {
+	color: var(--mor);
+	font-weight: bold;
+	font-size: 15px;
+	border-radius: 5px;
+}
+
+.navbar-nav .nav-link:hover {
+	color: whitesmoke;
+	text-shadow: 1px 2px 2px rgba(0, 0, 0, .3);
+	background-color: var(--mor);
+}
+
+.mansetBgHolder {
+	padding-top: 4rem;
+	background-image: url(../img/manset-bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
+}
+
+.text-mor {
+	color: var(--mor);
+}
+
+.text-bordo {
+	color: var(--bordo);
+}
+
+.font-big {
+	font-size: 3em;
+	font-weight: 600;
+}
+
+.bookingFormContent {
+	-webkit-box-shadow: -8px -8px 1px rgba(244, 101, 124, .3);
+	-moz-box-shadow: -8px -8px 1px rgba(244, 101, 124, .3);
+	box-shadow: -8px -8px 1px rgba(244, 101, 124, .3);
+	position: relative;
+}
+
+.bookingFormContent label {
+	color: whitesmoke;
+	padding-left: 1rem;
+	font-weight: 800;
+	text-shadow: 0 2px 3px rgba(0, 0, 0, .5);
+	font-size: 1.4em;
+	text-transform: uppercase;
+}
+
+.bookingFormContent::after {
+	content: "";
+	width: 50px;
+	height: 14px;
+	background: url(../img/threeSquare.svg) no-repeat;
+	position: absolute;
+	top: -7px;
+	right: 30px;
+}
+
+.radius10 {
+	border-radius: 10px;
+}
+
+.blueGradient {
+	background: rgb(4, 64, 172);
+	background: -webkit-linear-gradient(rgba(4, 64, 172, 1) 0%, rgba(12, 29, 60, 1) 100%);
+	background: -o-linear-gradient(rgba(4, 64, 172, 1) 0%, rgba(12, 29, 60, 1) 100%);
+	background: linear-gradient(rgba(4, 64, 172, 1) 0%, rgba(12, 29, 60, 1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0440ac', endColorstr='#0c1d3c', GradientType=0);
+}
+
+.input-group-text i {
+	color: var(--orange2);
+}
+
+.orange1-bg {
+	background: var(--orange1);
+}
+
+.properties {
+	background: url(../img/properties-bg.jpg) no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+
+.properties i {
+	font-size: 4em;
+}
+
+.properties span {
+	font-family: var(--encode);
+	font-weight: 600;
+}
+
+.testimonials {
+	background: rgb(255, 255, 255);
+	background: -moz-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 19%, rgba(239, 239, 239, 1) 20%, rgba(239, 239, 239, 1) 80%, rgba(255, 255, 255, 1) 81%, rgba(255, 255, 255, 1) 100%);
+	background: -webkit-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 19%, rgba(239, 239, 239, 1) 20%, rgba(239, 239, 239, 1) 80%, rgba(255, 255, 255, 1) 81%, rgba(255, 255, 255, 1) 100%);
+	background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 19%, rgba(239, 239, 239, 1) 20%, rgba(239, 239, 239, 1) 80%, rgba(255, 255, 255, 1) 81%, rgba(255, 255, 255, 1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ffffff', GradientType=0);
+}
+
+.testimonials .card-title {
+	color: var(--lacivert);
+}
+
+.testimonials .card-img {
+	width: 40%;
+}
+
+.btn-custom {
+	border: 1px solid var(--sari);
+	border-radius: 200px;
+	color: var(--lacivert);
+}

@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="274.64 496.057 920.36 258.943">
+  <defs>
+    <style>
+      .cls-1 {
+        opacity: 0.21;
+        fill: url(#linear-gradient);
+      }
+
+      .cls-2 {
+        stroke: #bfbfbf;
+        fill: url(#linear-gradient-2);
+      }
+
+      .cls-3 {
+        fill: #ff966e;
+      }
+
+      .cls-3, .cls-4, .cls-5 {
+        stroke: #fff;
+        stroke-width: 2px;
+      }
+
+      .cls-4 {
+        fill: #f4657c;
+      }
+
+      .cls-5 {
+        fill: #540032;
+      }
+
+      .cls-6 {
+        stroke: none;
+      }
+
+      .cls-7 {
+        fill: none;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f4657c"/>
+      <stop offset="1" stop-color="#183a78"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x2="0" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#0440ac"/>
+      <stop offset="1" stop-color="#0c1d3c"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_38" data-name="Group 38" transform="translate(0 -150)">
+    <rect id="Rectangle_45" data-name="Rectangle 45" class="cls-1" width="905" height="237" rx="15" transform="translate(274.64 646.057)"/>
+    <g id="Rectangle_39" data-name="Rectangle 39" class="cls-2" transform="translate(290 673)">
+      <rect class="cls-6" width="905" height="232" rx="10"/>
+      <rect class="cls-7" x="0.5" y="0.5" width="904" height="231" rx="9.5"/>
+    </g>
+    <g id="Group_27" data-name="Group 27" transform="translate(-406 -1337.226)">
+      <g id="Rectangle_42" data-name="Rectangle 42" class="cls-3" transform="translate(1469 2002)">
+        <rect class="cls-6" width="17.852" height="17.852" rx="5"/>
+        <rect class="cls-7" x="1" y="1" width="15.852" height="15.852" rx="4"/>
+      </g>
+      <g id="Rectangle_43" data-name="Rectangle 43" class="cls-4" transform="translate(1493.228 2002)">
+        <rect class="cls-6" width="17.852" height="17.852" rx="5"/>
+        <rect class="cls-7" x="1" y="1" width="15.852" height="15.852" rx="4"/>
+      </g>
+      <g id="Rectangle_44" data-name="Rectangle 44" class="cls-5" transform="translate(1517.962 2002)">
+        <rect class="cls-6" width="17.852" height="17.852" rx="5"/>
+        <rect class="cls-7" x="1" y="1" width="15.852" height="15.852" rx="4"/>
+      </g>
+    </g>
+  </g>
+</svg>
