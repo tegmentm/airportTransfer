@@ -2,7 +2,7 @@
 	--bordo: #8e1128;
 	--mor: #540032;
 	--lacivert: #183a78;
-	--sari:#f0c678;
+	--sari: #f0c678;
 	--orange1: #ff9900;
 	--orange2: #FF966E;
 
@@ -169,3 +169,64 @@ a {
 .sideHeader {
 	min-height: 300px;
 }
+
+
+/* From The Blog Start
+======================= */
+.fromTheBlogLeft {
+	display: grid;
+	height: 100%;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr;
+	grid-gap: 2em;
+	grid-template-areas: "header v-bg""header v-bg""h-bg h-bg";
+}
+
+.fromTheBlogHeader {
+	grid-area: header;
+}
+
+.v-bg {
+	grid-area: v-bg;
+	background: url("../img/fromTheBlog-bg-1.png") no-repeat;
+	background-size: contain;
+}
+
+.h-bg {
+	grid-area: h-bg;
+	background: url("../img/fromTheBlog-bg-2.png") no-repeat;
+	background-size: cover;
+	min-height: 7em;
+}
+
+@media all and (-ms-high-contrast: none) {
+	.fromTheBlogLeft {
+		display: -ms-grid;
+		-ms-grid-columns: 1fr 1fr;
+		-ms-grid-rows: 1fr 1fr 1fr;
+	}
+
+	.fromTheBlogHeader {
+		-ms-grid-row: 1;
+		-ms-grid-row-span: 2;
+		-ms-grid-column: 1;
+		-ms-grid-column-span: 1;
+	}
+
+	.v-bg {
+		-ms-grid-row: 1;
+		-ms-grid-row-span: 2;
+		-ms-grid-column: 2;
+		-ms-grid-column-span: 1;
+	}
+
+	.h-bg {
+		-ms-grid-row: 3;
+		-ms-grid-row-span: 1;
+		-ms-grid-column: 1;
+		-ms-grid-column-span: 2;
+	}
+}
+
+/* From The Blog End
+======================= */
