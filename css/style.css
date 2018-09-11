@@ -165,3 +165,7 @@ a {
 	border-radius: 200px;
 	color: var(--lacivert);
 }
+
+.sideHeader {
+	min-height: 300px;
+}
