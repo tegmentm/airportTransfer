@@ -42,6 +42,7 @@ h4 {
 
 a {
 	transition: all .5s;
+	text-decoration: none;
 }
 
 
@@ -228,5 +229,44 @@ a {
 	}
 }
 
+.fromTheBlogRight .card-deck {
+	margin-top: 30px;
+}
+
+.fromTheBlogRight .card-deck::before {
+	content: "";
+	display: block;
+	margin-top: -25px;
+	position: absolute;
+	width: 85px;
+	height: 4px;
+	background: var(--orange1);
+	border-radius: 10px;
+	left:20px;
+}
+
 /* From The Blog End
 ======================= */
+
+footer {
+	background: var(--lacivert);
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .7) inset;
+}
+
+footer a {
+	text-decoration: none;
+	color: inherit;
+}
+
+footer a:hover {
+	text-decoration: none;
+	color: var(--orange2);
+}
+
+footer a i{
+	display: none !important;
+}
+
+footer a:hover i {
+	display: inline-block !important;
+}
